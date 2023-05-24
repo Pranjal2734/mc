@@ -38,5 +38,25 @@ res1=sum(inner_product)
 data=res1/len(inner_product)
 print("Data bit that was sent: ", data)
 
-
 # output : 6,7,8,9     3
+
+
+
+CDMA stands for Code Division Multiple Access. It is a digital cellular standard that utilizes spread Spectrum Technology. It spreads the signal over 
+a fully available spectrum or over multiple channels through division. It is a channelization protocol for Multiple Access, where information can be sent 
+simultaneously through several transmitters over a single communication channel.
+It is achieved in below steps: A signal is generated which extends over a wide bandwidth. The code which performs this action is called spreading code. 
+Later, a specific signal can be selected with a given code even in the presence of many other signals. It is mainly used in mobile networks like 2G and 3G. 
+It is a more secure and private line. It has good voice and data communication capabilities.
+
+
+
+1.The station encodes its data bit as follows.
+    If bit=1, then +1        If bit=0, then -1 
+    no signal (interpreted as 0) if station is idle
+2.Each station is allocated a different orthogonal sequence (code) which is N bit long for N stations
+3. Each station does a scalar multiplication of its encoded data bit and code sequence. 
+4. The resulting sequence is then stored on the channel.
+5. Since the channel is common, amplitudes add up and hence resultant channel sequence is the sum of sequences from all channels.
+6. If station 1 wants to listen to station 2, it multiplies (inner product) the channel sequence with code of station S2
+7. The inner product is then divided by N to get data bit transmitted from station 2
