@@ -1,0 +1,14 @@
+Small scale fading characterizes the fluctuation of signal (strength) over a spatial distance of fraction of wavelength. The fluctuation is also observed 
+in both time and frequency domain at a gain location. The variation of signal (strength) at the receiver is due to random interference between the different copies 
+of the transmitted signal. The interference is sometimes constructive and sometimes destructive. The multiple copies of the transmitted signal are generated due to 
+scattering, reflection, and diffraction due to obstacle present in the path of radio signal between the Tx and Rx movement of the Tx and Rx or the obstacle cause 
+time domain variation of the signal (strength) and the phenomenon is called Doppler effect. Since each path of the radio wave may exhibit difference doppler its 
+cumulative effect results in spread of the carrier/ frequency content of the signal and hence is also known as Doppler spread
+
+
+PROCEDURE:
+1. Click on start button to start the exp.
+2. Enter your name then click on OK.
+3. Enter the parameter values. Then click on RESET button & observe the waveform.
+4. Enter the LCR Exp & ADF Exp in both MRC and SC from the waveform. Click on submit button.
+5. Click on report to generate pdf report of the exp.
