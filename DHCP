@@ -3,6 +3,7 @@ information to network devices. Every device on a TCP/IP-based network must have
 Without DHCP, IP addresses for new computers or computers that are moved from one subnet to another must be configured manually.
 
 
+
 PROCEDURE:
 1- Select end devices, switch, server with drag & drop options and connect them.
 2- Double click on DHCP server. Go to desktop and do the following/necessary settings.
