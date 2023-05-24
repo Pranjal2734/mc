@@ -33,3 +33,11 @@ plt.ylabel('Bit Error Rate')
 plt.title('Bit Error Rate vs. SNR for BPSK modulation with AMGN')
 plt.grid(True)
 plt.show()
+
+
+In this experiment, we will derive the theoretical equation for bit error rate (BER) with Binary Phase Shift Keying (BPSK) modulation scheme in 
+Additive White Gaussian Noise (AWGN) channel. The BER results obtained using Matlab/Octave simulation scripts show good agreement with the 
+derived theoretical results
+
+With Binary Phase Shift Keying (BPSK), the binary digits 1 and 0 maybe represented by the analog levels +√Eb and -√Eb respectively. 
+The system model is as shown in the Figure below.
