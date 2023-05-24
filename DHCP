@@ -1,0 +1,12 @@
+Dynamic Host Configuration Protocol (DHCP) is a standardized client/server network protocol that dynamically assigns IP addresses and other related configuration 
+information to network devices. Every device on a TCP/IP-based network must have a unique unicast IP address to access the networkand its resources. 
+Without DHCP, IP addresses for new computers or computers that are moved from one subnet to another must be configured manually.
+
+
+PROCEDURE:
+1- Select end devices, switch, server with drag & drop options and connect them.
+2- Double click on DHCP server. Go to desktop and do the following/necessary settings.
+3- On DHCP server follow steps as:
+        config - set server name "DHCP SERVER"
+4- On server select DHCP protocol & do the foll. settings.
+5- Go to desktop - IP configurations - select DHCP option on all end devices one by one.
