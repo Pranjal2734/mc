@@ -1,0 +1,10 @@
+PROCEDURE:
+
+1. Select end devices, switch, router, server with drag and drop option and connect them.
+2. On end devices like PC0, PC1 double click and do following settings. Go to Desktop-IP configuration
+3. Click on Router and do following settings.
+4. Click on server. Go to desktop - IP configuration.
+5. On server go to Config - FTP-USERNAME-PASSWORD- Click on "+"
+6. Click on PC0. Select Desktop - Text Editor and create file. Save file with file name. txt(e.g. HELLO.txt)
+7. On desktop run following commands on one PC.
+8. On desktop run following commands on second PC.
