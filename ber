@@ -38,6 +38,15 @@ plt.show()
 In this experiment, we will derive the theoretical equation for bit error rate (BER) with Binary Phase Shift Keying (BPSK) modulation scheme in 
 Additive White Gaussian Noise (AWGN) channel. The BER results obtained using Matlab/Octave simulation scripts show good agreement with the 
 derived theoretical results
-
 With Binary Phase Shift Keying (BPSK), the binary digits 1 and 0 maybe represented by the analog levels +√Eb and -√Eb respectively. 
 The system model is as shown in the Figure below.
+
+
+
+Simulation model
+Matlab/Octave source code for computing the bit error rate with BPSK modulation from theory and simulation. The code performs the following:
+(a) Generation of random BPSK modulated symbols +1's and -1's
+(b) Passing them through Additive White Gaussian Noise channel
+(c) Demodulation of the received symbol based on the location in the constellation
+(d) Counting the number of errors
+(e) Repeating the same for multiple Eb/No value.
