@@ -1,0 +1,47 @@
+clear
+
+N-106% number of bits or symbols
+
+Brand('state, 100); % Initializing the rand() function trandn("state",200); % initializing the rande() function
+
+XTransmitter
+
+ip rand(1,N)10.5; generating 0,1 with equal probability
+
+*-2*1p-1; PSK modulation -1;11
+
+1/sqrt(2) [randn(1,N) 1randn(1,N)1; % white gaussian noise, d
+
+ED 80 dB(-3:10]; % multiple Eb/o values for 11 1:length(Eb No d8)
+
+Noise addition ys 10(-Eb No (11)/20); % additive white gaussian noise,OdB variance
+
+iphat real(y)>0; counting the errors
+
+1 receiver hard decision decoding 1 ) size(find([1p-1pHat)),2);
+
+Err(11
+
+end
+
+.
+
+sinder nErr/N; simulated ber
+
+theoryBer 0.5 erfc(sqrt(10. (Eb_o_d8/10))); % theoretical ber plot
+
+close all
+
+figure send logy (Eb Ne de, theoryer, "b.-");
+
+hold on senilogy(Eb_Ne_dB, sinber, "-");
+
+axis([-3 10 10-5 0.5])
+
+grid on
+
+legend('theory, simulation");
+
+xlabel("Eb/No, d)
+
+ylabel('Bit Error Rate'); title('Blt error probability curve for BPSK modulation");
