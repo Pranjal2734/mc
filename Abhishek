@@ -2,15 +2,16 @@ clear
 
 N-106% number of bits or symbols
 
-Brand('state, 100); % Initializing the rand() function trandn("state",200); % initializing the rande() function
+rand('state, 100); % Initializing the rand() function 
+randn("state",200); % initializing the rande() function
 
-XTransmitter
+%Transmitter
 
-ip rand(1,N)10.5; generating 0,1 with equal probability
+ip = rand(1,N)10.5; generating 0,1 with equal probability
 
-*-2*1p-1; PSK modulation -1;11
+s=2*1p-1; %BPSK modulation -1;11
 
-1/sqrt(2) [randn(1,N) 1randn(1,N)1; % white gaussian noise, d
+n=1/sqrt(2)*[randn(1,N)+ j*randn(1,N)1]; % white gaussian noise, d
 
 ED 80 dB(-3:10]; % multiple Eb/o values for 11 1:length(Eb No d8)
 
